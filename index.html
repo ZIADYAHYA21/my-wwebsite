@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محل الري الحديث والتنقيط</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#services">الخدمات</a></li>
+                <li><a href="#register">إنشاء حساب</a></li>
+                <li><a href="#login">تسجيل الدخول</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>مرحبًا بكم في محل الري الحديث والتنقيط</h1>
+            <p>نقدم أفضل حلول الري بأنظمة حديثة للمزارع والحدائق.</p>
+            <a href="#services" class="btn">استكشف المزيد</a>
+        </div>
+    </header>
+
+    <!-- صفحة إنشاء حساب جديد -->
+    <section id="register">
+        <h2>إنشاء حساب</h2>
+        <form id="register-form">
+            <label for="username">اسم المستخدم</label>
+            <input type="text" id="username" placeholder="أدخل اسم المستخدم" required>
+            
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" id="email" placeholder="أدخل بريدك الإلكتروني" required>
+            
+            <label for="password">كلمة المرور</label>
+            <input type="password" id="password" placeholder="أدخل كلمة المرور" required>
+            
+            <button type="submit" class="btn">إنشاء الحساب</button>
+        </form>
+    </section>
+
+    <!-- صفحة تسجيل الدخول -->
+    <section id="login">
+        <h2>تسجيل الدخول</h2>
+        <form id="login-form">
+            <label for="login-username">اسم المستخدم</label>
+            <input type="text" id="login-username" placeholder="أدخل اسم المستخدم" required>
+            
+            <label for="login-password">كلمة المرور</label>
+            <input type="password" id="login-password" placeholder="أدخل كلمة المرور" required>
+            
+            <button type="submit" class="btn">تسجيل الدخول</button>
+        </form>
+    </section>
+
+    <section id="services">
+        <h2>خدماتنا</h2>
+        <div class="service">
+            <h3><i class="fas fa-water"></i> أنظمة الري</h3>
+            <p>نقدم أنظمة ري حديثة وموفرة للمياه تستخدم تقنيات التنقيط.</p>
+        </div>
+        <div class="service">
+            <h3><i class="fas fa-cogs"></i> تركيب وصيانة</h3>
+            <p>نقوم بتركيب وصيانة كافة الأنظمة من الخراطيم والمضخات.</p>
+        </div>
+        <div class="service">
+            <h3><i class="fas fa-users"></i> استشارات فنية</h3>
+            <p>تقديم استشارات فنية مع أرقام التواصل التالية:</p>
+            <p><i class="fas fa-phone"></i> 01113304368</p>
+            <p><i class="fas fa-phone"></i> 01096666653</p>
+            <p><i class="fas fa-phone"></i> 01142609023</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>اتصل بنا</h2>
+        <p><i class="fas fa-phone"></i> الهاتف: 01148518935</p>
+        <p><i class="fas fa-envelope"></i> البريد الإلكتروني: <a href="mailto:ziadziad123mm@gmail.com">ziadziad123mm@gmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
